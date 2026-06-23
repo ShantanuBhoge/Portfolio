@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio showcasing expertise in software development and digital solutions."
+    />
+    <title>Portfolio | Professional Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+
+
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">
+          <span class="nav__logo-mark">My</span>
+          <span class="nav__logo-text">Portfolio</span>
+        </a>
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#internships" class="nav__link">Internships</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#Academics" class="nav__link">Academics</a></li>
+
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__orb hero__orb--1"></div>
+          <div class="hero__orb hero__orb--2"></div>
+          <div class="hero__grid"></div>
+        </div>
+        <div class="container hero__content">
+          <p class="hero__greeting reveal">
+            Welcome to my professional portfolio
+          </p>
+          <h1 class="hero__title reveal">
+            I am <span class="hero__name" id="typedName"></span
+            ><span class="hero__cursor">|</span>
+          </h1>
+          <p class="hero__subtitle reveal">
+            A motivated fresher with hands-on project experience and two
+            professional internships, eager to contribute through clean code,
+            responsive design, and continuous learning.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--outline">Get in Touch</a>
+          </div>
+          <div class="hero__stats reveal">
+            <!-- <div class="stat">
+            <span class="stat__number" data-count="3">0</span>
+            <span class="stat__label">Projects Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="1">0</span>
+            <span class="stat__label">Internships</span>
+          </div> -->
+            <div class="stat stat--text">
+              <span class="stat__badge">Fresher</span>
+              <span class="stat__label">Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#about"
+          class="hero__scroll"
+          aria-label="Scroll to about section"
+        >
+          <span>Scroll</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M12 5v14M5 12l7 7 7-7" />
+          </svg>
+        </a>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__tag">About Me</span>
+            <h2 class="section__title">Professional Background</h2>
+            <p class="section__desc">
+              A concise overview of my expertise, approach, and professional
+              objectives.
+            </p>
+          </div>
+          <div class="about__grid">
+            <div class="about__image reveal">
+              <div class="avatar-creative">
+                <div class="avatar-creative__glow" aria-hidden="true"></div>
+                <div
+                  class="avatar-creative__ring avatar-creative__ring--outer"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="avatar-creative__ring avatar-creative__ring--inner"
+                  aria-hidden="true"
+                ></div>
+                <div class="avatar-creative__orbit" aria-hidden="true">
+                  <span class="avatar-creative__dot"></span>
+                  <span class="avatar-creative__dot"></span>
+                  <span class="avatar-creative__dot"></span>
+                </div>
+                <div class="avatar-creative__core">
+                  <img
+                    src="images1.png"
+                    alt="Shantanu's Picture"
+                    class="avatar-creative__photo"
+                    id="avatarPhoto"
+                  />
+                  <div class="avatar-creative__initials" id="avatarInitials">
+                    <span>SB</span>
+                  </div>
+                </div>
+                <div class="avatar-creative__badge" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="about__content reveal">
+              <h3>Aspiring Developer with Practical Foundation</h3>
+              <p>
+                I am a fresher with a solid academic background and practical
+                exposure gained through academic projects and professional
+                internship. I focus on building functional applications with
+                clear logic and well-structured code.
+              </p>
+              <p>
+                My experience includes system-based projects in Java, responsive
+                web development, and real-world learning during internships. I
+                am enthusiastic about joining a professional environment where I
+                can grow, contribute, and refine my skills.
+              </p>
+              <ul class="about__highlights">
+                <li>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Three academic and personal projects completed
+                </li>
+                <li>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Proficient in Java, HTML, CSS,JavaScript And SQL
+                </li>
+                <li>
+                  <svg
+                    viewBox="0 0 34 34"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Organized and executed a general knowledge exam, leading
+                  coordination efforts and leadership and planning skills.
+                </li>
+
+                <li>
+                  <svg
+                    viewBox="0 0 34 34"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Executive Member of Sipna's Readers Club.
+                </li>
+              </ul>
+
+              <a href="#contact" class="btn btn--primary"
+                >Discuss Opportunities</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__tag">Expertise</span>
+            <h2 class="section__title">Technical Proficiencies</h2>
+            <p class="section__desc">
+              Core competencies developed through practical application and
+              continuous learning.
+            </p>
+          </div>
+          <div class="skills__grid">
+            <article class="skill-card reveal">
+              <div class="skill-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                </svg>
+              </div>
+              <h3>Front-End Development</h3>
+              <p>
+                HTML, CSS, and JavaScript for building responsive and
+                user-friendly web interfaces.
+              </p>
+              <div class="skill-card__bar">
+                <div class="skill-card__fill" data-progress="80"></div>
+              </div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                </svg>
+              </div>
+              <h3>Java Programming</h3>
+              <p>
+                Object-oriented application development including console-based
+                systems and logic design.
+              </p>
+              <div class="skill-card__bar">
+                <div class="skill-card__fill" data-progress="82"></div>
+              </div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M3 9h18M9 21V9" />
+                </svg>
+              </div>
+              <h3>Responsive Web Design</h3>
+              <p>
+                Layout structuring and styling for consistent presentation
+                across devices and screen sizes.
+              </p>
+              <div class="skill-card__bar">
+                <div class="skill-card__fill" data-progress="78"></div>
+              </div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+                  />
+                </svg>
+              </div>
+              <h3>Problem Solving</h3>
+              <p>
+                Structured approach to debugging, requirement analysis, and
+                application flow design.
+              </p>
+              <div class="skill-card__bar">
+                <div class="skill-card__fill" data-progress="85"></div>
+              </div>
+            </article>
+          </div>
+          <div class="skills__tags reveal">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">Responsive Design</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Git</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="internships section" id="internships">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__tag">Experience</span>
+            <h2 class="section__title">Internship Experience</h2>
+            <p class="section__desc">
+              Practical industry exposure gained through two professional
+              internship engagements.
+            </p>
+          </div>
+          <div class="internships__grid">
+            <article class="internship-card reveal">
+              <div class="internship-card__header">
+                <!-- <span class="internship-card__number">01</span> -->
+                <span class="internship-card__badge">Internship</span>
+              </div>
+              <h3>Internship — Codelevate Technologies</h3>
+              <p class="internship-card__role">Web Development Intern</p>
+              <p class="internship-card__desc">
+                Contributed to assigned development tasks, collaborated with the
+                team, and applied academic knowledge to real-world project
+                requirements under professional guidance.
+              </p>
+              <ul class="internship-card__points">
+                <h3>Contributed in Key Projects:</h3>
+                <li>
+                  Client-Based Web Applications Worked on client-oriented
+                  projects focusing on responsive UI development and
+                  optimization, collaborating with senior developers to deliver
+                  high-quality solutions.
+                </li>
+                <li>
+                  Application Debugging & Documentation Involved in debugging,
+                  testing, and documenting code to maintain software quality and
+                  ensure timely delivery.
+                </li>
+                <li>
+                  Strengthened practical skills through guided project work
+                </li>
+              </ul>
+            </article>
+            <!-- <article class="internship-card reveal">
+            <div class="internship-card__header">
+              <span class="internship-card__number">02</span>
+              <span class="internship-card__badge">Internship</span>
+            </div>
+            <h3>Internship — Organization Name</h3>
+            <p class="internship-card__role">Role / Domain (e.g. Software Development Intern)</p>
+            <p class="internship-card__desc">
+              Participated in structured learning and hands-on tasks, developing a clearer
+              understanding of industry practices, coding standards, and project delivery.
+            </p>
+            <ul class="internship-card__points">
+              <li>Worked on technical assignments aligned with business objectives</li>
+              <li>Improved communication and task execution in a professional setting</li>
+              <li>Built confidence in applying development concepts practically</li>
+            </ul>
+          </article> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__tag">Portfolio</span>
+            <h2 class="section__title">Selected Projects</h2>
+            <p class="section__desc">
+              Academic and personal projects reflecting my practical development
+              experience as a fresher.
+            </p>
+          </div>
+          <div class="projects__filter reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">Application</button>
+            <button class="filter-btn" data-filter="java">Java</button>
+          </div>
+          <div class="projects__grid">
+            <article class="project-card reveal" data-category="app">
+              <div class="project-card__image project-card__image--1">
+                <img
+                  src="Messlogo.png"
+                  alt="Mess Management System"
+                  class="project-image"
+                />
+                <div class="project-card__overlay">
+                  <a
+                    href=""
+                    class="project-card__link"
+                    aria-label="View Wonderlust website"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-card__content">
+                <span class="project-card__category">System Application</span>
+                <h3>Mess Management System</h3>
+                <p>
+                  A structured system for managing mess operations, records, and
+                  daily administrative tasks efficiently.
+                </p>
+                <div class="project-card__tech">
+                  <span>Java</span><span>Logic Design</span
+                  ><span>Database</span>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="java app">
+              <div class="project-card__image project-card__image--2">
+                <img
+                  src="ATM.jpg"
+                  alt="ATM simulation Project"
+                  class="project-image"
+                />
+                <div class="project-card__overlay">
+                  <a
+                    href=""
+                    class="project-card__link"
+                    aria-label="View Wonderlust website"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-card__content">
+                <span class="project-card__category">Java Application</span>
+                <h3>ATM Machine using Java</h3>
+                <p>
+                  A console-based ATM simulation implementing core banking
+                  operations such as withdrawal, deposit, and balance inquiry.
+                </p>
+                <div class="project-card__tech">
+                  <span>Java</span><span>OOP</span><span>Console App</span>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="web">
+              <div class="project-card__image project-card__image--3">
+                <img
+                  src="wonderlust.png"
+                  alt="Wonderlust Project"
+                  class="project-image"
+                />
+                <div class="project-card__overlay">
+                  <a
+                    href=""
+                    class="project-card__link"
+                    aria-label="View Wonderlust website"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="project-card__content">
+                <span class="project-card__category">Responsive Website</span>
+                <h3>Wonderlust site</h3>
+                <p>
+                  A fully responsive hospitality-style website designed with
+                  clean layout, modern styling, and mobile-friendly structure.
+                </p>
+                <div class="project-card__tech">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="Academics section" id="Academics">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__tag">Education</span>
+            <h2 class="section__title">Academic Qualifications</h2>
+            <p class="section__desc">
+              My educational background and foundational learning.
+            </p>
+          </div>
+          <div class="academic__grid">
+            <article class="academic-card reveal">
+              <div class="academic-card__header">
+                <span class="academic-card__badge"
+                  >Bachelor of Engineering (CSE)</span
+                >
+              </div>
+              <h3>Sipna College of Engineering and Technology, Amravati</h3>
+              <p class="academic-card__role">
+                Computer Science and Engineering
+              </p>
+              <p class="academic-card__desc">
+                Pursuing comprehensive knowledge in core computer science,
+                software development life cycles, and practical engineering
+                solutions.
+              </p>
+              <ul class="academic-card__points">
+                <li>
+                  Relevant Coursework: Data Structures, OOP, SQL, Web
+                  Development.
+                </li>
+                <li>CGPA/Percentage: 7.49 (66.81%)</li>
+                <li>Year of Passing: 2026</li>
+              </ul>
+            </article>
+
+            <article class="academic-card reveal">
+              <div class="academic-card__header">
+                <span class="academic-card__badge">12th Grade (HSC)</span>
+              </div>
+              <h3>Shri Gurudev Vidya Mandir , Gurukunj Mozari</h3>
+              <p class="academic-card__role">Science Stream</p>
+              <p class="academic-card__desc">
+                Developed a strong analytical foundation studying Physics,
+                Chemistry, and Mathematics.
+              </p>
+              <ul class="academic-card__points">
+                <li>Board: Maharashtra State Board</li>
+                <li>Percentage: 70.83%</li>
+                <li>Year of Passing: 2022</li>
+              </ul>
+            </article>
+
+            <article class="academic-card reveal">
+              <div class="academic-card__header">
+                <span class="academic-card__badge">10th Grade (SSC)</span>
+              </div>
+              <h3>Shri Deorao Dada High School,Tivsa</h3>
+              <p class="academic-card__role">General Academics</p>
+              <p class="academic-card__desc">
+                Completed foundational education with a focus on comprehensive
+                learning and extracurricular activities.
+              </p>
+              <ul class="academic-card__points">
+                <li>Board:Maharashtra State Board</li>
+                <li>Percentage: 88.60%</li>
+                <li>Year of Passing: 2020</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__tag">Contact</span>
+            <h2 class="section__title">Professional Inquiry</h2>
+            <p class="section__desc">
+              I welcome correspondence regarding collaborations, opportunities,
+              or professional discourse.
+            </p>
+          </div>
+          <div class="contact__grid">
+            <div class="contact__info reveal">
+              <div class="contact__card">
+                <div class="contact__card-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <path d="M22 6l-10 7L2 6" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:your.email@example.com"
+                    >sbwork429@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact__card">
+                <div class="contact__card-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Maharashtra, India</h4>
+                  <p>Amravati 444902</p>
+                </div>
+              </div>
+              <div class="contact__card">
+                <div class="contact__card-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                    />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <a
+                    href="https://www.linkedin.com/in/shantanu-bhoge/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >www.linkedin.com/in/shantanu-bhoge</a
+                  >
+                </div>
+              </div>
+              <div class="contact__socials">
+                <a
+                  href="https://github.com/ShantanuBhoge"
+                  target="blank"
+                  class="social-link"
+                  aria-label="GitHub"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://instagram.com/the.gh0st.__"
+                  target="_blank"
+                  class="social-link"
+                  aria-label="Instagram"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.75 1a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 16.5 5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <form
+              class="contact__form reveal"
+              id="contactForm"
+              action="https://formsubmit.co/sbwork429@gmail.com"
+              method="POST"
+            >
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Purpose of your inquiry"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Please provide details regarding your inquiry"
+                  required
+                ></textarea>
+              </div>
+
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Portfolio Inquiry"
+              />
+
+              <button type="submit" class="btn btn--primary btn--full">
+                <span>ping me!</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                </svg>
+              </button>
+              <p class="form__success" id="formSuccess" hidden>
+                Thank you for your message. I shall respond at the earliest
+                convenience.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <p>&copy; <span id="year"></span> Portfolio. All rights reserved.</p>
+        <p class="footer__note"></p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
