@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Velocity Rentals">
+  <defs>
+    <linearGradient id="velocity-blue" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#velocity-blue)"/>
+  <path fill="#fff" d="M13 37.5v-5.3c0-1.5.8-2.9 2.1-3.6l5.4-3.1 4.2-9.2c.7-1.5 2.2-2.5 3.9-2.5h8.8c1.7 0 3.2 1 3.9 2.5l4.2 9.2 5.4 3.1c1.3.7 2.1 2.1 2.1 3.6v5.3c0 1.7-1.3 3-3 3h-2.1a6.9 6.9 0 0 1-13.7 0H29.8a6.9 6.9 0 0 1-13.7 0H16c-1.7 0-3-1.3-3-3Zm13.6 2.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4Zm20.8 0a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4ZM25.9 25h12.2l-2.6-5.8c-.2-.4-.6-.7-1.1-.7h-4.8c-.5 0-.9.3-1.1.7L25.9 25Zm-7.2 7.4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm26.6 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+  <path fill="#93c5fd" d="M26 26.7h12l-1.2-1.7H27.2z"/>
+</svg>
